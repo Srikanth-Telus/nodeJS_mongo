@@ -2,7 +2,7 @@ FROM node:9-slim
 
 WORKDIR /index
 
-COPY package.* /index
+COPY package*.json /index
 
 RUN npm install
 
